@@ -1,0 +1,7 @@
+node_modules
+.dccache
+public
+.DS_Store
+.vscode
+dist
+.firebase
