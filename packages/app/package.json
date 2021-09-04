@@ -1,0 +1,8 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "Frontend web app for toastty to consume the graphql bff",
+  "main": "index.js",
+  "author": "Fahad Ahmed",
+  "license": "MIT"
+}

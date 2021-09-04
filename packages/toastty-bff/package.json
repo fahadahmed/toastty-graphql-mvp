@@ -1,0 +1,8 @@
+{
+  "name": "toastty-bff",
+  "version": "0.0.1",
+  "description": "Backend for Frontend (BFF) application using GraphQL and Apollo (Nexus) Server",
+  "main": "index.js",
+  "author": "Fahad Ahmed",
+  "license": "MIT"
+}
