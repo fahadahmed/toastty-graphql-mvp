@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "01developer": {
+        "projects": [
+          {
+            "name": "website",
+            "clientId": 1,
+            "id": 1,
+            "status": "active"
+          },
+          {
+            "name": "design-system",
+            "clientId": 2,
+            "id": 2,
+            "status": "active"
+          },
+          {
+            "name": "branding",
+            "clientId": 3,
+            "id": 3,
+            "status": "archived"
+          },
+          {
+            "name": "website",
+            "clientId": 4,
+            "id": 4,
+            "status": "active"
+          },
+          {
+            "name": "mobile-app",
+            "clientId": 5,
+            "id": 5,
+            "status": "active"
+          },
+          {
+            "name": "web-app",
+            "clientId": 5,
+            "id": 6,
+            "status": "active"
+          },
+          {
+            "name": "website",
+            "clientId": 3,
+            "id": 7,
+            "status": "active"
+          },
+          {
+            "name": "website",
+            "clientId": 4,
+            "id": 8,
+            "status": "archived"
+          },
+          {
+            "name": "branding",
+            "clientId": 5,
+            "id": 8,
+            "status": "active"
+          }
+        ],
+        "clients": [
+          {
+            "id": 1,
+            "name": "PowerHouse Cricket Club",
+            "projects": 1
+          },
+          {
+            "id": 2,
+            "name": "Spark New Zealand",
+            "projects": 1
+          },
+          {
+            "id": 3,
+            "name": "Growing Data",
+            "projects": 2
+          },
+          {
+            "id": 4,
+            "name": "Officer Medical Centre",
+            "projects": 1
+          },
+          {
+            "id": 5,
+            "name": "Sheikh Chilli from Dilli",
+            "projects": 6
+          }
+        ],
+        "tags": [
+          "standup",
+          "meeting",
+          "development",
+          "documentation",
+          "uxdesign",
+          "frontend",
+          "api",
+          "prototyping"
+        ],
+        "entries": []
+      },
+      "02architect": {
+        "projects": [],
+        "clients": [],
+        "tags": [],
+        "entries": []
+      },
+      "03lawyer": {
+        "projects": [],
+        "clients": [],
+        "tags": [],
+        "entries": []
+      },
+      "04videoproducer": {
+        "projects": [],
+        "clients": [],
+        "tags": [],
+        "entries": []
+      },
+      "05digitalmarketer": {
+        "projects": [],
+        "clients": [],
+        "tags": [],
+        "entries": []
+      }
+    }
+  ]
+}
