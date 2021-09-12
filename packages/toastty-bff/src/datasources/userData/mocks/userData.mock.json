@@ -4,55 +4,49 @@
       "01developer": {
         "projects": [
           {
-            "name": "website",
+            "name": "Power House website",
             "clientId": 1,
             "id": 1,
             "status": "active"
           },
           {
-            "name": "design-system",
+            "name": "Byxel design system",
             "clientId": 2,
             "id": 2,
             "status": "active"
           },
           {
-            "name": "branding",
+            "name": "Growing Data branding",
             "clientId": 3,
             "id": 3,
             "status": "archived"
           },
           {
-            "name": "website",
+            "name": "Officer Medical Centre website",
             "clientId": 4,
             "id": 4,
-            "status": "active"
+            "status": "archived"
           },
           {
-            "name": "mobile-app",
-            "clientId": 5,
+            "name": "SCFD design dystem",
+            "clientId": 3,
             "id": 5,
             "status": "active"
           },
           {
-            "name": "web-app",
-            "clientId": 5,
+            "name": "SparkNZ website",
+            "clientId": 2,
             "id": 6,
             "status": "active"
           },
           {
-            "name": "website",
+            "name": "Growing Data website",
             "clientId": 3,
             "id": 7,
             "status": "active"
           },
           {
-            "name": "website",
-            "clientId": 4,
-            "id": 8,
-            "status": "archived"
-          },
-          {
-            "name": "branding",
+            "name": "SCFD branding",
             "clientId": 5,
             "id": 8,
             "status": "active"
@@ -93,9 +87,229 @@
           "uxdesign",
           "frontend",
           "api",
-          "prototyping"
+          "prototyping",
+          "devops",
+          "admin",
+          "branding",
+          "design-system"
         ],
-        "entries": []
+        "entries": [
+          {
+            "id": 1,
+            "description": "Daily stand-up Growing Data",
+            "dateStart": "2021-07-05",
+            "timeStart": "09:00:00",
+            "timer": 1200,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["standup"]
+          },
+          {
+            "id": 2,
+            "description": "Design research for company branding",
+            "dateStart": "2021-07-05",
+            "timeStart": "09:30:00",
+            "timer": 14400,
+            "projectId": 3,
+            "billable": "true",
+            "invoiced": "paid",
+            "tags": ["uxdesign", "research"]
+          },
+          {
+            "id": 3,
+            "description": "Project Setup on Firebase and Github",
+            "dateStart": "2021-07-05",
+            "timeStart": "14:30:00",
+            "timer": 14400,
+            "projectId": 1,
+            "billable": false,
+            "tags": ["development", "devops"]
+          },
+          {
+            "id": 4,
+            "description": "Daily stand-up Growing Data",
+            "dateStart": "2021-07-06",
+            "timeStart": "09:00:00",
+            "timer": 900,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["standup"]
+          },
+          {
+            "id": 5,
+            "description": "Design research for company branding",
+            "dateStart": "2021-07-06",
+            "timeStart": "09:30:00",
+            "timer": 14400,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["uxdesign", "research"]
+          },
+          {
+            "id": 6,
+            "description": "Setting up React and Typescript with Emotion",
+            "dateStart": "2021-07-06",
+            "timeStart": "14:30:00",
+            "timer": 10800,
+            "projectId": 1,
+            "billable": false,
+            "tags": ["development"]
+          },
+          {
+            "id": 7,
+            "description": "Daily stand-up Growing Data",
+            "dateStart": "2021-07-07",
+            "timeStart": "09:00:00",
+            "timer": 900,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["standup"]
+          },
+          {
+            "id": 8,
+            "description": "Stylescapes creation",
+            "dateStart": "2021-07-07",
+            "timeStart": "09:30:00",
+            "timer": 14400,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["uxdesign", "research", "stylescapes"]
+          },
+          {
+            "id": 9,
+            "description": "Stylescapes creation",
+            "dateStart": "2021-07-07",
+            "timeStart": "14:30:00",
+            "timer": 10800,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["uxdesign", "research", "stylescapes"]
+          },
+          {
+            "id": 10,
+            "description": "Implemented the app layout for the website",
+            "dateStart": "2021-07-07",
+            "timeStart": "17:30:00",
+            "timer": 3600,
+            "projectId": 1,
+            "billable": false,
+            "tags": ["development", "frontend"]
+          },
+          {
+            "id": 11,
+            "description": "Daily stand-up Growing Data",
+            "dateStart": "2021-07-08",
+            "timeStart": "09:00:00",
+            "timer": 1200,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["standup"]
+          },
+          {
+            "id": 12,
+            "description": "Stylescapes finalization",
+            "dateStart": "2021-07-08",
+            "timeStart": "09:30:00",
+            "timer": 7200,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["uxdesign", "research", "stylescapes"]
+          },
+          {
+            "id": 13,
+            "description": "Meeting prep for Stylescapes presentation",
+            "dateStart": "2021-07-08",
+            "timeStart": "11:30:00",
+            "timer": 3600,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["admin"]
+          },
+          {
+            "id": 14,
+            "description": "Meeting with Tez and Francois - Stylescapes",
+            "dateStart": "2021-07-08",
+            "timeStart": "13:30:00",
+            "timer": 3600,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["meeting", "stylescapes"]
+          },
+          {
+            "id": 15,
+            "description": "Meeting feedback updates to Stylescapes",
+            "dateStart": "2021-07-08",
+            "timeStart": "14:30:00",
+            "timer": 10800,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["uxdesign", "documentation"]
+          },
+          {
+            "id": 16,
+            "description": "Team Performance page implementation - Data connected from JSON",
+            "dateStart": "2021-07-08",
+            "timeStart": "17:30:00",
+            "timer": 7200,
+            "projectId": 1,
+            "billable": false,
+            "tags": ["development", "frontend"]
+          },
+          {
+            "id": 17,
+            "description": "Meeting with GD to finalise stylescapes after feedback implementation",
+            "dateStart": "2021-07-09",
+            "timeStart": "09:00:00",
+            "timer": 3600,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["meeting", "stylescapes"]
+          },
+          {
+            "id": 18,
+            "description": "Branding implementation - Colors and Typography based on GD Logo and Stylescapes",
+            "dateStart": "2021-07-09",
+            "timeStart": "10:00:00",
+            "timer": 10800,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["uxdesign", "branding", "design-system"]
+          },
+          {
+            "id": 19,
+            "description": "Branding implementation - UI Components Library",
+            "dateStart": "2021-07-09",
+            "timeStart": "14:30:00",
+            "timer": 14400,
+            "projectId": 3,
+            "billable": true,
+            "invoiced": "paid",
+            "tags": ["uxdesign", "branding", "design-system"]
+          },
+          {
+            "id": 20,
+            "description": "Team Performance page implementation - Data visualisation complete",
+            "dateStart": "2021-07-09",
+            "timeStart": "18:30:00",
+            "timer": 3600,
+            "projectId": 1,
+            "billable": false,
+            "tags": ["development", "frontend"]
+          }
+        ]
       },
       "02architect": {
         "projects": [],
